@@ -19,4 +19,7 @@
 @include font-face('slick');
 @include font-face('bootstrap-icon', 'glyphicons-halflings-regular');
 
+@include font-face('GothamPro', 'GothamProBold', 700);
+@include font-face('GothamPro', 'GothamProLight', 300);
+@include font-face('GothamPro', 'GothamProRegular', 400);
 /* /fonts*/
