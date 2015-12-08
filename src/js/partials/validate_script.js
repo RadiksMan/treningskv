@@ -22,6 +22,9 @@ function validate(form, options){
                 if(typeof(setings.errorFunction) === 'function'){
                     setings.errorFunction(form);
                 }
+                setTimeout(function() {
+                      $('.bottom_form_select').trigger('refresh');
+                }, 1)
             },
             errorPlacement: function(error, element) {
                 error.appendTo( element.closest('.form-input'));

@@ -5075,6 +5075,9 @@ function validate(form, options){
                 if(typeof(setings.errorFunction) === 'function'){
                     setings.errorFunction(form);
                 }
+                setTimeout(function() {
+                      $('.bottom_form_select').trigger('refresh');
+                }, 1)
             },
             errorPlacement: function(error, element) {
                 error.appendTo( element.closest('.form-input'));
@@ -5301,7 +5304,13 @@ function inputFocus(){
     });
 }
 function bottomSelect(){
-    $('.bottom_form_select').styler();
+    $('.bottom_form_select').styler({
+        onSelectClosed:function(){
+            setTimeout(function() {
+                $('.bottom_form_select').trigger('refresh');
+            }, 1)
+        }
+    });
 }
 $(document).ready(function(){
     inputFocus();
