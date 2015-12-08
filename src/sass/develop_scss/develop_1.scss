@@ -60,7 +60,7 @@
         .treeteen-img, .treeteen-img:nth-child(2n){transform:translate(0, 0);opacity: 1;}
     }
 }
-.treeteen-img{display: inline-block;width: calc(49% - 5px);margin-right: 2%;padding: 6px;border:4px solid #d3d3d3;margin-bottom: 15px;transform:translate(-50%, 0);opacity: 0;transition:transform 200ms ease 400ms, opacity 400ms ease 400ms;
+.treeteen-img{display: inline-block;width: calc(49% - 8px);margin-right: 2%;padding: 6px;border:4px solid #d3d3d3;margin-bottom: 15px;transform:translate(-50%, 0);opacity: 0;transition:transform 200ms ease 400ms, opacity 400ms ease 400ms;
     &:nth-child(2n){margin-right: 0;transform:translate(50%, 0);}
 }
 
