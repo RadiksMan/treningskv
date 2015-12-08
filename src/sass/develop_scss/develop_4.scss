@@ -1,0 +1,35 @@
+/*fancybox*/
+.fancybox-skin{background-color: #fff;}
+.fancybox-close{width: 40px;height: 40px;right: 50%;transform: translate(50%, 0);background-image: none;border:2px solid rgba(255,255,255, .4);border-radius: 50%;top: -58px;
+    &:after,&:before{width: 17px;height: 4px;background-color: #fff;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%) rotate(45deg);content: '';}
+    &:before{transform: rotate(-45deg) translate(0%, 0%);top: 45%;left: 29%;}
+    &:hover{border-color: white;
+        &:after,&:before{box-shadow: 0px 0px 1px 0px white;}
+    }
+}
+#callback{width: 300px;padding: 13px 30px;text-align: center;
+    h5{font-weight: bold;font-size: 24px;padding-bottom: 10px;}
+    p{font-family: Arial,sans-serif;font-size: 16px;font-weight: 600;}
+    .contact-form-title{padding-bottom: 15px;}
+    .form_input{position: relative;margin-bottom: 10px;
+        label{position: absolute;top: 12px;left: 15px;font-size: 16px;padding: 0 2px;background-color: #fff;transition:all ease-out .3s;display: block;
+            &.active{top: -7px;left: 9px;font-size: 13px;}
+        }
+        input{border-width: 2px;border-color: rgb(0, 0, 0);border-style: solid;border-radius: 4px;    padding: 13px 10px;width: 100%;
+            &.error{border-color: red;}
+        }
+        .errorText{position: static;text-align: center;color: red;}
+    }
+    .contact-submit{text-transform: uppercase;border-width: 2px;border-color: rgb(255, 94, 20);border-style: solid;border-radius: 4px;font-size: 18px;background-color: #fff;width: 100%;padding: 20px 0px;display: inline-block;cursor: pointer;transition:all ease-out .2s;
+        &:hover{background-color: rgb(255, 94, 20);color: white;}
+        &:active{
+            span{position: relative;top: 2px;}
+        }
+    }
+
+}
+
+.call_success{text-align: center;padding: 25px 41px;
+    .call-title{color: #ff5e14;font-size: 30px;font-weight: bold;}
+    .call-subtitle{padding-top: 18px;color: #2c2c2c;font-size: 16px; }
+}

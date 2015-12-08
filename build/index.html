@@ -213,13 +213,69 @@
 
 </section>
 <section class="section-twelve">
+    <div class="mbox">
 
+        <div class="twelve-wrap">
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img1.jpg" alt="" />
+                </div>
+            </div>
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img2.jpg" alt="" />
+                </div>
+            </div>
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img3.jpg" alt="" />
+                </div>
+            </div>
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img4.jpg" alt="" />
+                </div>
+            </div>
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img5.jpg" alt="" />
+                </div>
+            </div>
+            <div class="twelve-img">
+                <div class="twelve-img-wrap">
+                    <img src="images/twelve-img6.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+    </div>
 </section>
-<section class="section-threteen">
+<section class="section-threteen animate-section">
+
+    <div class="mbox">
+
+        <div class="threeteen-title animate-it">
+            <h4>Место проведения коучинга:</h4>
+            <p>г. Санкт-Петербург,  ул. Б. Разночинная, д. 25А</p>
+            <p><span>19 - 21 февраля с 12:00 до 19:00</span></p>
+        </div>
+
+        <div class="threeteen-content animate-it">
+            <div class="treeteen-img">
+                <img src="images/threeteen-img1.jpg" alt="" />
+            </div>
+            <div class="treeteen-img">
+                <img src="images/threeteen-img2.jpg" alt="" />
+            </div>
+        </div>
+
+    </div>
 
 </section>
 <section class="section-fourteen">
+    <div class="bottom-form">
 
+    </div>
 </section>
 
 <!-- /add partials here -->
@@ -228,24 +284,55 @@
     <div id="call_success">
         <div class="call-success">
              <div class="call_success">
-                 <div class="call-title">Спасибо за заявку!</div>
-                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                 <div class="call-title">Спасибо</div>
+                 <div class="call-subtitle">В ближайшее время наши <br>менеджеры обязательно свяжутся с Вами.</div>
              </div>
         </div>
     </div>
-
-    <div id="call-popup">
-
+    <div id="callback">
+        <form action="ajax.php" name=""class="contact-form">
+            <div class="contact-form-title">
+                <h5>Оставьте заявку</h5>
+                <p>и мы перезвоним Вам</p>
+                <p>в течении 5 минут</p>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <label for="contact_name">Введите Ваше имя</label>
+                            <input type="text" name="contact_name" id="contact_name" class="contact_name" required="required" value="" >
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <label for="contact_tel">Введите Ваш телефон</label>
+                            <input type="text" name="contact_tel" value="" id="contact_tel" required="required" class="tel-mask">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <button type="submit" class="contact-submit">
+                    <span>отправить</span>
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
 
 </div>
 
 </body>
 </html>
-    <footer class="footer">
+    <div class="footer_placeholder"></div>
+    <footer class="footer animate-section">
         <div class="mbox">
 
-            <div class="footer-left">
+            <div class="footer-left animate-delay">
                 <div class="footer-logo">
                     <img src="images/header-logo.png" alt="" />
                 </div>
@@ -255,15 +342,15 @@
                 </div>
             </div>
 
-            <div class="footer-center">
+            <div class="footer-center animate-delay">
                 <p>Концепция и разработка</p>
                 <p>"Маркетинг к деньгам"</p>
             </div>
 
-            <div class="footer-right">
+            <div class="footer-right animate-delay">
                 <div class="telefone-text">+7 (495) 382-74-65</div>
                 <div class="callback">
-                    <a href="#callback" class="fancybox">Заказать звонок</a>
+                    <a href="#call-popup" class="fancybox">Заказать звонок</a>
                 </div>
             </div>
 
