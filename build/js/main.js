@@ -5192,6 +5192,7 @@ function validationCall(form){
 $(document).ready(function() {
 
     validate('.contact-form', {submitFunction:validationCall});
+    validate('.contact-form-bottom', {submitFunction:validationCall});
 });
 
 function rewiewsGallery() {
@@ -5249,10 +5250,12 @@ function inputFocus(){
         }
     });
 }
-
+function bottomSelect(){
+    $('.bottom_form_select').styler();
+}
 $(document).ready(function(){
     inputFocus();
-
+    bottomSelect();
 
 });
 
