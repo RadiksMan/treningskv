@@ -91,12 +91,13 @@ function fancyformMaskedinput(){
 $(document).ready(function() {
     fancyboxform();
     animationBlock($('.animate-section'));
-    oneHeightItems();
+
     fancyformMaskedinput();
 });
 
 $(window).load(function(){
 
+  oneHeightItems();
   $('.footer_placeholder').height($('.footer').outerHeight());
 
 });

@@ -1510,6 +1510,14 @@ input[type='submit'].styler[disabled] {
       transform: scale(1); }
 
 /* /twelve section */
+/* eleven section */
+.section-eleven {
+  background-color: #292f3d;
+  background-image: url(../images/eleven-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+/* /eleven section */
 .block7-wrap .head-title {
   max-width: 960px; }
   .block7-wrap .head-title .title-text {
