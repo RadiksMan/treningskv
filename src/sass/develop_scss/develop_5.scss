@@ -1,0 +1,38 @@
+/*section-one*/
+    .section-one{position: relative; background-image: url('../images/spikerBG.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;
+        .spiker-bg{}
+        .content{position: relative;     padding: 38px 0 54px 7px;
+            a,p,span{font-family: 'GothamPro'; font-size: 36px; font-weight: 700; color:#fff;}
+            .spiker{position: absolute;bottom: 0; right:-46px; z-index: -1; transform: rotateY(90deg); opacity:0; transition: all 500ms; transition-delay:500ms;
+                &.animated{opacity: 1; transform: rotateY(0);}
+            }
+            .title{    width: 100%;    max-width: 550px;     padding-bottom: 25px;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:500ms;
+                &.animated{opacity: 1; transform: translateX(0);}
+                p{color: #ff5e14;     letter-spacing: 0.1px;}
+                span{line-height: 44px;}
+            }
+            .date-event{padding: 0 0 22px 15px; position: relative;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:700ms;
+                &.animated{opacity: 1; transform: translateX(0);}
+                span{font-size: 20px;}
+                p{font-weight: 400; font-size: 20px;line-height: 29px;}
+                &:before{content: ''; display: block; position: absolute; width: 1px; height: 38px; background-color: #ff5e14; left:0;     top: 5px;}
+            }
+            .bttn-wrapp{padding-bottom: 40px;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:900ms;
+                &.animated{opacity: 1; transform: translateX(0);}
+                .bttn{ border: 2px solid #ff5e14; width: 240px; height: 66px; text-align: center; transition: all 500ms; display: inline-block; vertical-align: top; border-radius: 5px;
+                    a{font-weight: 400;font-size: 18px; text-transform: uppercase; text-decoration: none;     padding-top: 20px;    letter-spacing: 1px;    display: inline-block;}
+                    &:hover{background-color: #ff5e14;}
+                }
+                .bttn-descr{ display: inline-block; width:100%; max-width: 436px;    margin-left: 19px;    padding-top: 17px;
+                    p{font-weight: 400;font-size: 12px; color: #9ca1ab; padding-bottom: 2px;}
+                }
+            }
+            .dotted-border{ border-radius: 8px; border: 2px dotted #b4d7ff; width:100%; max-width: 436px;     padding: 23px 29px 13px; transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:1100ms;
+                &.animated{opacity: 1; transform: translateX(0);}
+                span{font-family: 'GeorgiaItalic'; font-size: 15px; color:#b4d7ff; display: inline-block; width: 100%; font-weight: 400;     line-height: 18px;     padding-bottom: 10px;
+                    &:last-child{text-align: right;}
+                 }
+            }
+        }
+    }
+/*END section-one*/
