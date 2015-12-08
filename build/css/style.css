@@ -1415,6 +1415,73 @@ input[type='submit'].styler[disabled] {
     transform: translate(50%, 0); }
 
 /* /threeteen section */
+/* twelve section */
+.section-twelve {
+  padding: 90px 0 37px 0; }
+
+.twelve-img {
+  display: inline-block;
+  width: -webkit-calc(33.33% - 17px);
+  width: -moz-calc(33.33% - 17px);
+  width: calc(33.33% - 17px);
+  margin-right: 20px;
+  margin-bottom: 23px; }
+  .twelve-img:nth-child(3n) {
+    margin-right: 0; }
+  .twelve-img a {
+    display: block;
+    position: relative; }
+    .twelve-img a:before, .twelve-img a:after {
+      content: '';
+      position: absolute; }
+    .twelve-img a:before {
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      -webkit-transition: opacity 300ms ease;
+      -moz-transition: opacity 300ms ease;
+      -o-transition: opacity 300ms ease;
+      transition: opacity 300ms ease; }
+    .twelve-img a:after {
+      width: 80px;
+      height: 80px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #ff5e14;
+      background-image: url(../images/img-hover-icon.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      top: -webkit-calc(50% - 40px);
+      top: -moz-calc(50% - 40px);
+      top: calc(50% - 40px);
+      left: -webkit-calc(50% - 40px);
+      left: -moz-calc(50% - 40px);
+      left: calc(50% - 40px);
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: -webkit-transform 300ms ease;
+      -moz-transition: -moz-transform 300ms ease;
+      -o-transition: -o-transform 300ms ease;
+      transition: transform 300ms ease;
+      z-index: 2; }
+    .twelve-img a:hover:before {
+      opacity: 1; }
+    .twelve-img a:hover:after {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1); }
+
+/* /twelve section */
 .block7-wrap .head-title {
   max-width: 960px; }
   .block7-wrap .head-title .title-text {
