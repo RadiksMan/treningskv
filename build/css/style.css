@@ -1425,9 +1425,37 @@ input[type='submit'].styler[disabled] {
   width: -moz-calc(33.33% - 17px);
   width: calc(33.33% - 17px);
   margin-right: 20px;
-  margin-bottom: 23px; }
+  margin-bottom: 23px;
+  opacity: 0;
+  -webkit-transform: translate(0, 50%);
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+  -webkit-transition: opacity 400ms ease, -webkit-transform 200ms ease;
+  -moz-transition: opacity 400ms ease, -moz-transform 200ms ease;
+  -o-transition: opacity 400ms ease, -o-transform 200ms ease;
+  transition: opacity 400ms ease, transform 200ms ease; }
   .twelve-img:nth-child(3n) {
-    margin-right: 0; }
+    margin-right: 0;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    transform: translate(50%, 0); }
+  .twelve-img:nth-child(3n+1) {
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+  .twelve-img.animated, .twelve-img.animated:nth-child(3n), .twelve-img.animated:nth-child(3n+1) {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
   .twelve-img a {
     display: block;
     position: relative; }
