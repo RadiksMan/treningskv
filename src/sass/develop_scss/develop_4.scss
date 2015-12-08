@@ -38,7 +38,7 @@
 
 /*14 section*/
 .section-fourteen{position: relative;z-index: 3;}
-.bottom-form{background: url('../images/bottom-form.jpg') center center no-repeat;text-align: center;    padding-top: 46px;padding-bottom: 51px;
+.bottom-form{background: url('../images/bottom-form.jpg') center center no-repeat;text-align: center;    padding-top: 46px;padding-bottom: 51px;background-size: cover;
     .bottom-form-title{
         h5{color: white;font-size: 36px;font-weight: bold;}
         &.animate-delay{opacity: 0;transition:opacity ease-out .3s,transform ease-out .4s;transform: translateY(30%);}
