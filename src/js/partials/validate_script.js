@@ -69,14 +69,14 @@ function validate(form, options){
             });
         }
 
-        if($('.tel-mask[required]',$form).length){
-            $('.tel-mask[required]',$form).rules("add",
-            {
-                messages:{
-                    required:"Введите номер мобильного телефона."
-                }
-            });
-        }
+        // if($('.tel-mask[required]',$form).length){
+        //     $('.tel-mask[required]',$form).rules("add",
+        //     {
+        //         messages:{
+        //             required:"Введите номер мобильного телефона."
+        //         }
+        //     });
+        // }
 
         $('[type="password"]',$form).each(function(){
             if($(this).is("#re_password") == true){
@@ -135,3 +135,8 @@ function validationCall(form){
 
     }
 }
+
+$(document).ready(function() {
+
+    validate('.contact-form', {submitFunction:validationCall});
+});
