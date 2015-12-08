@@ -5035,12 +5035,13 @@ function fancyformMaskedinput(){
 $(document).ready(function() {
     fancyboxform();
     animationBlock($('.animate-section'));
-    oneHeightItems();
+
     fancyformMaskedinput();
 });
 
 $(window).load(function(){
 
+  oneHeightItems();
   $('.footer_placeholder').height($('.footer').outerHeight());
 
 });
@@ -5194,7 +5195,19 @@ $(document).ready(function() {
     validate('.contact-form-bottom', {submitFunction:validationCall});
 });
 
+function rewiewsGallery() {
+    $('.reviews-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        dots:false
+    });
+}
+
 $(document).ready(function(){
+
+    rewiewsGallery();
 
 });
 
