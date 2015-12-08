@@ -595,6 +595,14 @@ img {
   float: right; }
 
 /* /footer */
+/* threeteen section */
+.section-threteen {
+  background-image: url(../images/threeteen-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 0; }
+
+/* /threeteen section */
 .block7-wrap .head-title {
   max-width: 960px; }
   .block7-wrap .head-title .title-text {
