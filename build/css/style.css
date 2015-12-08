@@ -475,6 +475,120 @@ img {
   display: none; }
 
 /* import develop files */
+/* header */
+.header {
+  background-color: #fff;
+  border-bottom: 4px solid #000;
+  position: relative;
+  min-height: 104px; }
+
+.header-left {
+  float: left;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  top: 31px; }
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  left: 50%;
+  margin-left: -45px; }
+
+.header-logo-img {
+  position: relative;
+  z-index: 1;
+  top: 0px; }
+
+.header-logo-border {
+  overflow: hidden;
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  z-index: 0;
+  left: 50%;
+  margin-left: -36px;
+  top: -webkit-calc(100% + 1px);
+  top: -moz-calc(100% + 1px);
+  top: calc(100% + 1px); }
+  .header-logo-border:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 4px solid #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    left: -webkit-calc(50% - 49px);
+    left: -moz-calc(50% - 49px);
+    left: calc(50% - 49px); }
+
+.header-right {
+  float: right;
+  position: relative;
+  top: 23px;
+  text-align: right; }
+
+.telefone-text {
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 24px; }
+
+.callback {
+  text-align: right; }
+  .callback a {
+    font-size: 18px;
+    color: #ff5e14;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
+    transition: color 300ms ease; }
+    .callback a:hover {
+      color: #000000; }
+
+/* /header */
+.block7-wrap .head-title {
+  max-width: 960px; }
+  .block7-wrap .head-title .title-text {
+    font-family: 'Gotham', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 25px; }
+.block7-wrap .crams-line {
+  max-width: 960px; }
+  .block7-wrap .crams-line .box-crams {
+    display: inline-block;
+    width: 33%;
+    margin-left: -5px; }
+    .block7-wrap .crams-line .box-crams .conver-text {
+      font-family: 'Gotham', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      background-color: #ff5e14;
+      color: white; }
+      .block7-wrap .crams-line .box-crams .conver-text:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 0 23px 20px;
+        border-color: transparent transparent transparent #ff5e14; }
+  .block7-wrap .crams-line:first-child {
+    margin-left: 0px; }
+
 /*section-one*/
 .section-one {
   position: relative;

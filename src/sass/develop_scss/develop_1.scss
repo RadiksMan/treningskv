@@ -1,0 +1,20 @@
+/* header */
+
+.header{background-color: #fff;border-bottom: 4px solid #000;position: relative;min-height: 104px;}
+.header-left{float: left;font-size: 16px;line-height: 20px;position: relative;top: 31px;}
+
+.header-logo{position: absolute;top: 50%;margin-top: -18px;left: 50%;margin-left:-45px;}
+.header-logo-img{position: relative;z-index: 1;top: 0px;}
+.header-logo-border{overflow: hidden;position: absolute;width: 72px;height: 16px;z-index: 0;left: 50%;margin-left: -36px;top:calc(100% + 1px);
+    &:after{content: '';display: block;position: absolute;width: 90px;height: 90px;border:4px solid #000;border-radius: 50%;left: 0;bottom: 0;background-color: #fff;left:calc(50% - 49px);}
+}
+
+.header-right{float: right;position: relative;top: 23px;text-align: right;}
+.telefone-text{font-weight: 700;margin-bottom: 4px;font-size: 24px;}
+.callback{text-align: right;
+    a{font-size: 18px;color:#ff5e14;position: relative;display: inline-block;transition:color 300ms ease;
+        &:hover{color:#000000;}
+    }
+}
+
+/* /header */
