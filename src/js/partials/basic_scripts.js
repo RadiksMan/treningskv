@@ -90,8 +90,15 @@ function fancyformMaskedinput(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
     fancyboxform();
+    animationBlock($('.animate-section'));
     oneHeightItems();
     fancyformMaskedinput();
+});
+
+$(window).load(function(){
+
+  $('.footer_placeholder').height($('.footer').outerHeight());
+
 });
 
 $(window).resize(function() {

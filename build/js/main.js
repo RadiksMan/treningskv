@@ -4914,8 +4914,15 @@ function fancyformMaskedinput(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
     fancyboxform();
+    animationBlock($('.animate-section'));
     oneHeightItems();
     fancyformMaskedinput();
+});
+
+$(window).load(function(){
+
+  $('.footer_placeholder').height($('.footer').outerHeight());
+
 });
 
 $(window).resize(function() {
@@ -4949,19 +4956,19 @@ function validate(form, options){
                 }
             },
             errorPlacement: function(error, element) {
-                error.appendTo( element.closest('.form_input'));
+                error.appendTo( element.closest('.form-input'));
             },
             highlight: function(element, errorClass, validClass) {
                 $(element).addClass('error');
-                $(element).closest('.form_row').addClass('error').removeClass('valid');
+                $(element).closest('.form-row').addClass('error').removeClass('valid');
                 if( typeof(setings.highlightFunction) === 'function' ) {
                     setings.highlightFunction(form);
                 }
             },
             unhighlight: function(element, errorClass, validClass) {
                 $(element).removeClass('error');
-                if($(element).closest('.form_row').is('.error')){
-                    $(element).closest('.form_row').removeClass('error').addClass('valid');
+                if($(element).closest('.form-row').is('.error')){
+                    $(element).closest('.form-row').removeClass('error').addClass('valid');
                 }
                 if( typeof(setings.unhighlightFunction) === 'function' ) {
                     setings.unhighlightFunction(form);
