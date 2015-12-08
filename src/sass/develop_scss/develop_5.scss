@@ -78,7 +78,7 @@
 /*END section-thre*/
 /*section-four*/
     .section-four{ background-color: #f5f5f5; padding-top: 162px;
-        .content{padding: 40px 0 39px 0;
+        .content{padding: 40px 0 37px 0;
             p{font-family: 'GothamPro'; font-size: 48px; font-weight: 400; color:#000;}
             .title{text-align: center; width: 100%;padding-bottom: 69px;transform: translateX(-150%); opacity:0; transition: all 500ms; transition-delay:500ms;
                 &.animated{opacity: 1; transform: translateX(0);}
@@ -109,3 +109,48 @@
         }
     }
 /*END section-four*/
+/*section-five*/
+    .section-five{position: relative; background-image: url('../images/5BG.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;
+        .content{     padding: 45px 0 84px 0;
+            p{font-family: 'GothamPro'; font-size: 36px; font-weight: 700; color:#fff;}
+            .title{ text-align: center; padding-bottom: 37px;transform: translateX(-150%); opacity:0; transition: all 500ms; transition-delay:500ms;
+                &.animated{opacity: 1; transform: translateX(0);}
+                p{
+                    &:nth-child(3){font-weight: 300; font-size: 20px;     padding-top: 51px; position: relative;
+                        &:before{content: ''; display: block; position: absolute; width: 140px; height: 1px; background-color: #ff5e14; left: calc(50% - 70px); top:26px;}
+                    }
+                    &:nth-child(4),
+                    &:nth-child(5){font-weight: 300; font-size: 20px;}
+                }
+            }
+            .table{position: relative;transform-origin:50% top; transform:scaleY(0); opacity: 0; transition: all 500ms;
+                &.animated{transform:scaleY(1); opacity: 1;}
+                &:before{content: ''; display: block;position: absolute; border-bottom: 4px solid #fff; border-right: 4px solid #fff; width:926px; height: 136px;    bottom: -13px;    left: 10px;}
+                    &:after{content: ''; display: block;position: absolute;  border-left: 4px solid #fff; width:1px; height: 63px;     bottom: -13px;    left: 10px;}
+                .title-tab{ position: relative; text-align: center; padding-bottom: 39px;
+                    p{font-size: 24px;}
+                    &:before{content: ''; display: block;position: absolute; border-top: 4px solid #fff; border-left: 4px solid #fff; width:126px; height: 53px;top: 26px;    left: 10px;}
+                    &:after{content: ''; display: block;position: absolute; border-top: 4px solid #fff; border-right: 4px solid #fff; width:136px; height: 53px;top: 26px;    right:0;}
+                }
+                .items{position: relative;
+
+                    &:before{content: ''; display: block;position: absolute;  border-left: 4px solid #fff; width:1px; height:106px;    right: 0;    top: 46px;}
+                    .item{float:left; width: 33%;
+                        .round{border-radius: 50%; border:5px solid #ff5e14; position: relative; width: 25px; height: 25px;    margin-bottom: 16px;
+                            &:before{content: ''; display: block;position: absolute; width: 7px; height: 7px; border-radius: 50%; background-color: #ff5e14; top:4px; left:4px;}
+                            &:after{content: ''; display: block;position: absolute; background-image: url('../images/doted.png'); background-repeat: no-repeat; background-position: center; width: 268px; height: 3px; top:6px; left:25px;}
+                        }
+                        .txt{height: 111px;
+                            p{font-weight: 400;font-size: 16px; color: #c1c7d1;}
+                        }
+                        &:nth-child(3n-1){margin-left: 9px;};
+                        &:nth-child(3n){margin-left: 10px;width:30%;};
+                        &:nth-child(1){
+                            &:after{content: ''; display: block;position: absolute;  border-left: 4px solid #fff; width:1px; height: 40px;     left: 10px;    top: 103px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+/*END section-five*/
