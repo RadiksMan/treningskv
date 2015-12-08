@@ -1627,34 +1627,20 @@ input[type='submit'].styler[disabled] {
         width: -moz-calc(100% - 150px);
         width: calc(100% - 150px); }
 
-.block8-wrap {
+.helper-obert .block8-wrap {
   width: 100%;
   background-image: url(../images/block8-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  top: -150px;
-  opacity: 0;
-  -webkit-transform: translate3d(-20%, 0, 0);
-  -moz-transform: translate3d(-20%, 0, 0);
-  transform: translate3d(-20%, 0, 0);
-  -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
-  -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
-  -o-transition: -o-transform 300ms ease, opacity 400ms ease;
-  transition: transform 300ms ease, opacity 400ms ease; }
-  .block8-wrap.animated {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0); }
-  .block8-wrap .box-for-content {
+  top: -150px; }
+  .helper-obert .block8-wrap .box-for-content {
     max-width: 960px;
     padding-left: 50px;
     padding-top: 97px;
     padding-bottom: 98px;
     margin: 0 auto 0 auto; }
-    .block8-wrap .box-for-content .head-text {
+    .helper-obert .block8-wrap .box-for-content .head-text {
       font-family: 'GothamPro', sans-serif;
       font-size: 28px;
       line-height: 1.2;
@@ -1663,10 +1649,10 @@ input[type='submit'].styler[disabled] {
       position: relative;
       max-width: 570px;
       padding-bottom: 14px; }
-      .block8-wrap .box-for-content .head-text span {
+      .helper-obert .block8-wrap .box-for-content .head-text span {
         font-weight: 700;
         font-size: 24px; }
-      .block8-wrap .box-for-content .head-text:after {
+      .helper-obert .block8-wrap .box-for-content .head-text:after {
         content: '';
         width: 90px;
         height: 2px;
@@ -1674,14 +1660,14 @@ input[type='submit'].styler[disabled] {
         bottom: 0;
         left: 0;
         background-color: #ff5e14; }
-    .block8-wrap .box-for-content .afterline-text {
+    .helper-obert .block8-wrap .box-for-content .afterline-text {
       font-family: 'GothamPro', sans-serif;
       font-size: 18px;
       font-weight: 400;
       max-width: 470px;
       color: white;
       padding-top: 13px; }
-      .block8-wrap .box-for-content .afterline-text span {
+      .helper-obert .block8-wrap .box-for-content .afterline-text span {
         color: #ff5e14;
         font-weight: 700; }
 
@@ -1735,7 +1721,21 @@ input[type='submit'].styler[disabled] {
           -moz-border-radius: 2px;
           border-radius: 2px;
           padding-top: 28px;
-          padding-bottom: 25px; }
+          padding-bottom: 25px;
+          opacity: 0;
+          -webkit-transform: translate3d(20%, 0, 0);
+          -moz-transform: translate3d(20%, 0, 0);
+          transform: translate3d(20%, 0, 0);
+          -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+          -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+          -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+          transition: transform 300ms ease, opacity 400ms ease; }
+          .block9-wrap .block-for-main .convert-base-block .base-half:nth-child(2).animated {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0); }
           .block9-wrap .block-for-main .convert-base-block .base-half:nth-child(2) .head-base {
             color: white; }
           .block9-wrap .block-for-main .convert-base-block .base-half:nth-child(2) .head-base:after {
@@ -1895,9 +1895,9 @@ input[type='submit'].styler[disabled] {
       margin: -15px auto 0;
       text-align: center;
       opacity: 0;
-      -webkit-transform: translate3d(-20%, 0, 0);
-      -moz-transform: translate3d(-20%, 0, 0);
-      transform: translate3d(-20%, 0, 0);
+      -webkit-transform: translate3d(50%, 0, 0);
+      -moz-transform: translate3d(50%, 0, 0);
+      transform: translate3d(50%, 0, 0);
       -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
       -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
       -o-transition: -o-transform 300ms ease, opacity 400ms ease;
