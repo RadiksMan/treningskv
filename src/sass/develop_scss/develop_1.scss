@@ -65,3 +65,23 @@
 }
 
 /* /threeteen section */
+
+/* twelve section */
+
+.section-twelve{padding: 90px 0 37px 0;}
+.twelve-img{display: inline-block;width: calc(33.33% - 17px);margin-right: 20px;margin-bottom: 23px;opacity: 0;transform:translate(0, 50%);transition:opacity 400ms ease, transform 200ms ease;
+    &:nth-child(3n){margin-right: 0;transform:translate(50%, 0);}
+    &:nth-child(3n+1){transform:translate(-50%, 0);}
+    &.animated, &.animated:nth-child(3n), &.animated:nth-child(3n+1){opacity: 1;transform:translate(0,0);}
+    a{display: block;position: relative;
+        &:before, &:after{content: '';position: absolute;}
+        &:before{left: 0;top: 0;right: 0;bottom: 0;z-index: 1;background-color: rgba(0, 0, 0, .3);opacity: 0;transition:opacity 300ms ease;}
+        &:after{width: 80px;height: 80px;border-radius: 50%;background-color: #ff5e14;background-image:url(../images/img-hover-icon.png);background-repeat: no-repeat;background-position: center center;top: calc(50% - 40px);left:calc(50% - 40px);transform:scale(0);transition:transform 300ms ease;z-index: 2;}
+        &:hover{
+            &:before{opacity: 1;}
+            &:after{transform:scale(1);}
+        }
+    }
+}
+
+/* /twelve section */
