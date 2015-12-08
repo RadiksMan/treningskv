@@ -24,16 +24,16 @@
 
     }
 }
-
-.block8-wrap{width: 100%; background-image: url(../images/block8-bg.png); background-position: center center; background-repeat: no-repeat; position: absolute; top: -150px;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
-    &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
-    .box-for-content{ max-width: 960px; padding-left: 50px; padding-top: 97px; padding-bottom: 98px; margin: 0 auto 0 auto;
-        .head-text{font-family: 'GothamPro', sans-serif; font-size: 28px; line-height: 1.2; font-weight: 400;  color: white; position: relative; max-width: 570px; padding-bottom: 14px;
-            span{font-weight: 700; font-size: 24px;}
-            &:after{content: ''; width: 90px; height: 2px; position: absolute; bottom: 0; left: 0; background-color: #ff5e14; }
-        }
-        .afterline-text{font-family: 'GothamPro', sans-serif; font-size: 18px; font-weight: 400; max-width: 470px;color: white;padding-top: 13px;
-            span{color:#ff5e14; font-weight: 700;}
+.helper-obert{
+    .block8-wrap{width: 100%; background-image: url(../images/block8-bg.png); background-position: center center; background-repeat: no-repeat; position: absolute; top: -150px;
+        .box-for-content{ max-width: 960px; padding-left: 50px; padding-top: 97px; padding-bottom: 98px; margin: 0 auto 0 auto;
+            .head-text{font-family: 'GothamPro', sans-serif; font-size: 28px; line-height: 1.2; font-weight: 400;  color: white; position: relative; max-width: 570px; padding-bottom: 14px;
+                span{font-weight: 700; font-size: 24px;}
+                &:after{content: ''; width: 90px; height: 2px; position: absolute; bottom: 0; left: 0; background-color: #ff5e14; }
+            }
+            .afterline-text{font-family: 'GothamPro', sans-serif; font-size: 18px; font-weight: 400; max-width: 470px;color: white;padding-top: 13px;
+                span{color:#ff5e14; font-weight: 700;}
+            }
         }
     }
 }
@@ -44,7 +44,8 @@
             .base-half{display: inline-block; max-width: 460px;  border: 8px solid #ff5e14; margin-left: 0px; margin-right: 6px;vertical-align: top; padding: 25px; padding-top: 21px; padding-bottom: 21px;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
 
-                &:nth-child(2){margin-left: 9px; padding: 33px; max-width: 460px; margin-right: 0px; border: none; background-image: url(../images/bg-fgh.png);  border-radius: 2px; padding-top: 28px; padding-bottom: 25px;
+                &:nth-child(2){margin-left: 9px; padding: 33px; max-width: 460px; margin-right: 0px; border: none; background-image: url(../images/bg-fgh.png);  border-radius: 2px; padding-top: 28px; padding-bottom: 25px; opacity: 0; transform:translate3d(20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
+            &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
                     .head-base {color: white;}
                     .head-base:after { background-color: white;}
                     ul li:before {background-image: url(../images/circle-list2.png);}
@@ -93,7 +94,7 @@
             }
         }
         .satan{
-            .socials-block{width: 180px;  background-color: #f5f5f5;margin: -15px auto 0; text-align: center;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
+            .socials-block{width: 180px;  background-color: #f5f5f5;margin: -15px auto 0; text-align: center;opacity: 0; transform:translate3d(50%,0,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
                 .soc-block{width: 30px; height: 30px; border-radius: 4px; display: inline-block; margin: 0 2px;}
                 .vk-block{ background-image: url(../images/vk-soc.png);}
