@@ -46,8 +46,6 @@ switch (chistoMesec) {
         break
 }
 
-
-    console.log(monthRus);
     $('.change-data-fix').text( chistoChislo + ' ' + monthRus + ' ' + chistoGod );
 
 });
