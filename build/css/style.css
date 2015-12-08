@@ -1318,7 +1318,11 @@ input[type='submit'].styler[disabled] {
   background-position: center top;
   background-repeat: no-repeat;
   padding: 44px 0 46px 0;
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .threeteen-title {
   text-align: center;
