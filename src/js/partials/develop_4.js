@@ -8,10 +8,12 @@ function inputFocus(){
         }
     });
 }
-
+function bottomSelect(){
+    $('.bottom_form_select').styler();
+}
 $(document).ready(function(){
     inputFocus();
-
+    bottomSelect();
 
 });
 
