@@ -4981,8 +4981,8 @@ function oneHeightItems(){
         var height=0;
         block.removeAttr('style');
         block.each(function(){
-            if($(this).height()>height){
-                height=$(this).height();
+            if($(this).outerHeight()>height){
+                height=$(this).outerHeight();
             }
         });
         block.css('height', height);
