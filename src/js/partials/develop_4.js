@@ -9,7 +9,13 @@ function inputFocus(){
     });
 }
 function bottomSelect(){
-    $('.bottom_form_select').styler();
+    $('.bottom_form_select').styler({
+        onSelectClosed:function(){
+            setTimeout(function() {
+                $('.bottom_form_select').trigger('refresh');
+            }, 1)
+        }
+    });
 }
 $(document).ready(function(){
     inputFocus();
