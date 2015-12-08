@@ -485,10 +485,12 @@ img {
 
 .header-logo {
   position: absolute;
-  top: 50%;
-  margin-top: -18px;
-  left: 50%;
-  margin-left: -45px; }
+  top: -webkit-calc(50% - 18px);
+  top: -moz-calc(50% - 18px);
+  top: calc(50% - 18px);
+  left: -webkit-calc(50% - 45px);
+  left: -moz-calc(50% - 45px);
+  left: calc(50% - 45px); }
 
 .header-logo-img {
   position: relative;
@@ -501,8 +503,9 @@ img {
   width: 72px;
   height: 16px;
   z-index: 0;
-  left: 50%;
-  margin-left: -36px;
+  left: -webkit-calc(50% - 36px);
+  left: -moz-calc(50% - 36px);
+  left: calc(50% - 36px);
   top: -webkit-calc(100% + 1px);
   top: -moz-calc(100% + 1px);
   top: calc(100% + 1px); }
@@ -549,6 +552,77 @@ img {
       color: #000000; }
 
 /* /header */
+/* footer */
+.footer {
+  background-color: #fff;
+  padding-top: 40px; }
+
+.footer-left {
+  float: left;
+  -webkit-transform: translate(0, -30%);
+  -moz-transform: translate(0, -30%);
+  -ms-transform: translate(0, -30%);
+  -o-transform: translate(0, -30%);
+  transform: translate(0, -30%); }
+  .footer-left .footer-logo, .footer-left .footer-left-text {
+    display: inline-block;
+    vertical-align: middle; }
+
+.footer-left-text {
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 10px; }
+
+.footer-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  font-size: 14px;
+  color: #aeaeae;
+  text-align: center; }
+
+.footer-right {
+  float: right; }
+
+/* /footer */
+.block7-wrap .head-title {
+  max-width: 960px; }
+  .block7-wrap .head-title .title-text {
+    font-family: 'Gotham', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 25px; }
+.block7-wrap .crams-line {
+  max-width: 960px; }
+  .block7-wrap .crams-line .box-crams {
+    display: inline-block;
+    width: 33%;
+    margin-left: -5px; }
+    .block7-wrap .crams-line .box-crams .conver-text {
+      font-family: 'Gotham', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      background-color: #ff5e14;
+      color: white; }
+      .block7-wrap .crams-line .box-crams .conver-text:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 0 23px 20px;
+        border-color: transparent transparent transparent #ff5e14; }
+  .block7-wrap .crams-line:first-child {
+    margin-left: 0px; }
+
 /* /import develop files */
 /* import develop adaptation */
 /* /import develop adaptation */
