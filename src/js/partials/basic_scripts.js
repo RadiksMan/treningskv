@@ -77,11 +77,22 @@ function animationBlock(item){
     }
     checkForAnimate();
 }
-
+function fancyboxform(){
+  $('.fancybox').fancybox({
+    autoResize:true,
+    wrapCSS:'fancybox-form',
+    fitToView:true,
+  });
+}
+function fancyformMaskedinput(){
+    $('.tel-mask').mask('+9 (999) 999-99-99 ');
+}
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    fancyboxform();
     animationBlock($('.animate-section'));
     oneHeightItems();
+    fancyformMaskedinput();
 });
 
 $(window).load(function(){

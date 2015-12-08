@@ -775,6 +775,138 @@ img {
   .block7-wrap .crams-line:first-child {
     margin-left: 0px; }
 
+/*fancybox*/
+.fancybox-skin {
+  background-color: #fff; }
+
+.fancybox-close {
+  width: 40px;
+  height: 40px;
+  right: 50%;
+  -webkit-transform: translate(50%, 0);
+  -moz-transform: translate(50%, 0);
+  -ms-transform: translate(50%, 0);
+  -o-transform: translate(50%, 0);
+  transform: translate(50%, 0);
+  background-image: none;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: -58px; }
+  .fancybox-close:after, .fancybox-close:before {
+    width: 17px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+    content: ''; }
+  .fancybox-close:before {
+    -webkit-transform: rotate(-45deg) translate(0%, 0%);
+    -moz-transform: rotate(-45deg) translate(0%, 0%);
+    -ms-transform: rotate(-45deg) translate(0%, 0%);
+    -o-transform: rotate(-45deg) translate(0%, 0%);
+    transform: rotate(-45deg) translate(0%, 0%);
+    top: 45%;
+    left: 29%; }
+  .fancybox-close:hover {
+    border-color: white; }
+    .fancybox-close:hover:after, .fancybox-close:hover:before {
+      -webkit-box-shadow: 0px 0px 1px 0px white;
+      -moz-box-shadow: 0px 0px 1px 0px white;
+      box-shadow: 0px 0px 1px 0px white; }
+
+#callback {
+  width: 300px;
+  padding: 13px 30px;
+  text-align: center; }
+  #callback h5 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px; }
+  #callback p {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
+  #callback .contact-form-title {
+    padding-bottom: 15px; }
+  #callback .form_input {
+    position: relative;
+    margin-bottom: 10px; }
+    #callback .form_input label {
+      position: absolute;
+      top: 12px;
+      left: 15px;
+      font-size: 16px;
+      padding: 0 2px;
+      background-color: #fff;
+      -webkit-transition: all ease-out .3s;
+      -moz-transition: all ease-out .3s;
+      -o-transition: all ease-out .3s;
+      transition: all ease-out .3s;
+      display: block; }
+      #callback .form_input label.active {
+        top: -7px;
+        left: 9px;
+        font-size: 13px; }
+    #callback .form_input input {
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      padding: 13px 10px;
+      width: 100%; }
+      #callback .form_input input.error {
+        border-color: red; }
+    #callback .form_input .errorText {
+      position: static;
+      text-align: center;
+      color: red; }
+  #callback .contact-submit {
+    text-transform: uppercase;
+    border-width: 2px;
+    border-color: #ff5e14;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s; }
+    #callback .contact-submit:hover {
+      background-color: #ff5e14;
+      color: white; }
+    #callback .contact-submit:active span {
+      position: relative;
+      top: 2px; }
+
+.call_success {
+  text-align: center;
+  padding: 25px 41px; }
+  .call_success .call-title {
+    color: #ff5e14;
+    font-size: 30px;
+    font-weight: bold; }
+  .call_success .call-subtitle {
+    padding-top: 18px;
+    color: #2c2c2c;
+    font-size: 16px; }
+
 /*section-one*/
 .section-one {
   position: relative;

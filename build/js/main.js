@@ -4901,11 +4901,22 @@ function animationBlock(item){
     }
     checkForAnimate();
 }
-
+function fancyboxform(){
+  $('.fancybox').fancybox({
+    autoResize:true,
+    wrapCSS:'fancybox-form',
+    fitToView:true,
+  });
+}
+function fancyformMaskedinput(){
+    $('.tel-mask').mask('+9 (999) 999-99-99 ');
+}
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    fancyboxform();
     animationBlock($('.animate-section'));
     oneHeightItems();
+    fancyformMaskedinput();
 });
 
 $(window).load(function(){
@@ -4990,14 +5001,14 @@ function validate(form, options){
             });
         }
 
-        if($('.tel-mask[required]',$form).length){
-            $('.tel-mask[required]',$form).rules("add",
-            {
-                messages:{
-                    required:"Введите номер мобильного телефона."
-                }
-            });
-        }
+        // if($('.tel-mask[required]',$form).length){
+        //     $('.tel-mask[required]',$form).rules("add",
+        //     {
+        //         messages:{
+        //             required:"Введите номер мобильного телефона."
+        //         }
+        //     });
+        // }
 
         $('[type="password"]',$form).each(function(){
             if($(this).is("#re_password") == true){
@@ -5057,6 +5068,11 @@ function validationCall(form){
     }
 }
 
+$(document).ready(function() {
+
+    validate('.contact-form', {submitFunction:validationCall});
+});
+
 $(document).ready(function(){
 
 });
@@ -5090,7 +5106,20 @@ $(window).load(function(){
 $(window).resize(function(){
 
 });
+function inputFocus(){
+    $('.form_input input').focus(function() {
+        $(this).parent().find('label').addClass('active');
+    });
+    $('.form_input input').blur(function() {
+        if(!$(this).val()){
+            $(this).parent().find('label').removeClass('active');
+        }
+    });
+}
+
 $(document).ready(function(){
+    inputFocus();
+
 
 });
 
