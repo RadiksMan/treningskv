@@ -1392,9 +1392,9 @@ input[type='submit'].styler[disabled] {
 
 .treeteen-img {
   display: inline-block;
-  width: -webkit-calc(49% - 5px);
-  width: -moz-calc(49% - 5px);
-  width: calc(49% - 5px);
+  width: -webkit-calc(49% - 8px);
+  width: -moz-calc(49% - 8px);
+  width: calc(49% - 8px);
   margin-right: 2%;
   padding: 6px;
   border: 4px solid #d3d3d3;
