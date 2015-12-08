@@ -40,7 +40,7 @@
 
 /* threeteen section */
 
-.section-threteen{background-image:url(../images/threeteen-bg.jpg);background-position: center top;background-repeat: no-repeat;padding:44px 0 46px 0;}
+.section-threteen{background-image:url(../images/threeteen-bg.jpg);background-position: center top;background-repeat: no-repeat;padding:44px 0 46px 0;overflow: hidden;}
 
 .threeteen-title{text-align: center;margin-bottom: 25px;overflow: hidden;
     h4{font-size: 36px;font-weight: 700;margin-bottom: 14px;transform:translate(0, 50%);opacity: 0;transition:transform 200ms ease, opacity 400ms ease;}
@@ -68,7 +68,7 @@
 
 /* twelve section */
 
-.section-twelve{padding: 90px 0 37px 0;}
+.section-twelve{padding: 90px 0 37px 0;overflow: hidden;}
 .twelve-img{display: inline-block;width: calc(33.33% - 17px);margin-right: 20px;margin-bottom: 23px;opacity: 0;transform:translate(0, 50%);transition:opacity 400ms ease, transform 200ms ease;
     &:nth-child(3n){margin-right: 0;transform:translate(50%, 0);}
     &:nth-child(3n+1){transform:translate(-50%, 0);}
