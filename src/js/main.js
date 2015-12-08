@@ -3,9 +3,11 @@
 //= partials/plagins/jquery-2.1.4.min.js
 
 //= partials/plagins/maskInput.js
+//= partials/plagins/jquery.formstyler.min.js
 //= partials/plagins/slick.js
 //= partials/plagins/jquery.validate.min.js
 //= partials/plagins/jquery.fancybox.js
+//= partials/plagins/jquery.fancybox.pack.js
 
 /* /plagins */
 
