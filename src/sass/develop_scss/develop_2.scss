@@ -1,0 +1,15 @@
+.block7-wrap{
+    .head-title{max-width: 960px;
+        .title-text{font-family: 'Gotham', sans-serif; font-size: 36px; text-align: center; font-weight: 700;  padding-top: 50px; padding-bottom: 25px; }
+    }
+    .crams-line{max-width: 960px;
+        .box-crams{display: inline-block; width: 33%; margin-left: -5px;
+            .conver-text{ font-family: 'Gotham', sans-serif; font-size: 30px; font-weight: 700; background-color: #ff5e14; color: white;
+                &:after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-style: solid; border-width: 23px 0 23px 20px; border-color: transparent transparent transparent #ff5e14;}
+            }
+            .after-crams{}
+            .context-block{}
+        }
+        &:first-child{margin-left: 0px;}
+    }
+}
