@@ -1523,7 +1523,33 @@ input[type='submit'].styler[disabled] {
   font-weight: 700;
   font-size: 46px;
   color: #fff;
-  margin-bottom: 42px; }
+  margin-bottom: 42px;
+  opacity: 0;
+  -webkit-transform: translate(0, 50%);
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+  -webkit-transition: opacity 400ms ease, -webkit-transform 200ms ease;
+  -moz-transition: opacity 400ms ease, -moz-transform 200ms ease;
+  -o-transition: opacity 400ms ease, -o-transform 200ms ease;
+  transition: opacity 400ms ease, transform 200ms ease; }
+  .rewiews-title.animated {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+.reviews-slider {
+  opacity: 0;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease; }
+  .reviews-slider.animated {
+    opacity: 1; }
 
 .rewiews-item-main {
   margin: 0 10px;
@@ -1534,7 +1560,10 @@ input[type='submit'].styler[disabled] {
   text-align: center;
   margin-bottom: 20px; }
   .rewiews-img img {
-    display: inline-block; }
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
 
 .rewiews-title-item {
   font-size: 24px;
