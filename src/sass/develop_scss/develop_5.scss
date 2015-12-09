@@ -37,7 +37,7 @@
     }
 /*END section-one*/
 /*section-two*/
-    .section-two{
+    .section-two{overflow: hidden;
         .content{padding: 40px 0 39px 0;
             p{font-family: 'GothamPro'; font-size: 48px; font-weight: 400; color:#000;}
             .title{text-align: center; width: 100%;padding-bottom: 69px;transform: translateX(-150%); opacity:0; transition: all 500ms; transition-delay:500ms;
@@ -54,17 +54,24 @@
                     }
                     &:before{content:''; display: block; position: absolute; width:286px; height: 43px; border-style: dotted; border-radius: 5px; border-color:#eee;  top:-50px; }
                     &:nth-child(1){&:before{border-width: 3px 0 0 3px; left: 49%;}}
-                    &:nth-child(2){margin-left: 43px;
+                    &:nth-child(2){margin-left: 37px;margin-right: -5px;max-width: 298px;
                         &:before{border-width: 0 0 0 3px; left: 49%; border-radius: 0; height: 38px; top:-45px;}
                     }
-                    &:nth-child(3){    margin-left: 66px;
+                    &:nth-child(3){margin-left: 50px;margin-right: -10px;
                         &:before{border-width: 3px 3px 0 0; right: 49%;}
                     }
                 }
-                &:before{content: ''; display: block; position: absolute; width:49px; height: 2px; background-color: #ff5e14; left:calc(50% - 25px); top:-49px;}
+                &:before{content: ''; display: block; position: absolute; width:49px; height: 2px; background-color: #ff5e14; left:calc(50% - 33px); top:-49px;z-index: 5;}
             }
         }
     }
+
+@media screen and (max-width: 1024px){
+    .section-two .content .items .item .txt p{font-size: 14px;line-height: 16px;}
+    .section-two .content .items .item:nth-child(3){margin-left: 30px;}
+    .section-two .content .items{padding-left: 51px;}
+    .header-logo-border{top: 91px;}
+}
 /*END section-two*/
 /*section-thre*/
     .section-three{ margin-bottom: -162px;
@@ -97,10 +104,10 @@
                         .round{    margin-left: 14px;}
                         &:before{border-width: 3px 0 0 3px; left: 50%;}
                     }
-                    &:nth-child(2){margin-left: 97px;
+                    &:nth-child(2){margin-left: 97px;margin-right: -10px;
                         &:before{border-width: 0 0 0 3px; left: 50%; border-radius: 0; height: 38px; top:-45px;}
                     }
-                    &:nth-child(3){    margin-left: 96px;
+                    &:nth-child(3){margin-left: 93px;margin-right: -10px;
                         &:before{border-width: 3px 3px 0 0; right: 50%;}
                     }
                 }

@@ -46,6 +46,7 @@ $(document).ready(function(){
     }
 
     $('.change-data-fix').text( chistoChislo + ' ' + monthRus + ' ' + chistoGod );
+    $('.change-data-fix-two').text("до "+chistoChislo + ' ' + monthRus);
 
 });
 
