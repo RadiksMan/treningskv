@@ -2873,7 +2873,10 @@ input[type='submit'].styler[disabled] {
     padding-left: 51px; }
 
   .header-logo-border {
-    top: 91px; } }
+    top: 95px; }
+
+  .section-five .content .table .title-tab p {
+    font-size: 9px !important; } }
 /*END section-two*/
 /*section-thre*/
 .section-three {
