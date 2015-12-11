@@ -5377,7 +5377,16 @@ function bottomSelect(){
         }
     });
 }
+
+function countToForm(){
+    $(document).on('click', '.form-count', function(event) {
+        var count = $(this).data('count');
+        $('#contact_count').val(count);
+    });
+}
 $(document).ready(function(){
+    countToForm();
+
     inputFocus();
     bottomSelect();
 
