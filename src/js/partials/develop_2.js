@@ -95,6 +95,26 @@ $(document).ready(function(){
 
         $('.hange-data-fix_next').text( chistoChislo_next + ' ' + monthRus_next + ' ' + chistoGod_next );
 
+        $('.send-we-are-in').click(  function(){
+            yaCounter34108025.reachGoal('send_on');
+        });
+
+        $('.call-back-me').click(  function(){
+            yaCounter34108025.reachGoal('send_on');
+        });
+
+        $('.send_5000').click(  function(){
+            yaCounter34108025.reachGoal('send_5000');
+        });
+
+        $('.send_25000').click(  function(){
+            yaCounter34108025.reachGoal('send_25000');
+        });
+
+        $('.contact-submit').click(  function(){
+            yaCounter34108025.reachGoal('send_down');
+        });
+
 });
 
 $(window).load(function(){

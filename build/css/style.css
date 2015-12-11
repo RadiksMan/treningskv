@@ -2692,7 +2692,9 @@ input[type='submit'].styler[disabled] {
           text-decoration: none;
           padding-top: 20px;
           letter-spacing: 1px;
-          display: inline-block; }
+          display: inline-block;
+          width: 100%;
+          padding-bottom: 23px; }
         .section-one .content .bttn-wrapp .bttn:hover {
           background-color: #ff5e14; }
       .section-one .content .bttn-wrapp .bttn-descr {

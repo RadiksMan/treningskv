@@ -20,7 +20,7 @@
             .bttn-wrapp{padding-bottom: 40px;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:900ms;
                 &.animated{opacity: 1; transform: translateX(0);}
                 .bttn{ border: 2px solid #ff5e14; width: 240px; height: 66px; text-align: center; transition: all 500ms; display: inline-block; vertical-align: top; border-radius: 5px;
-                    a{font-weight: 400;font-size: 18px; text-transform: uppercase; text-decoration: none;     padding-top: 20px;    letter-spacing: 1px;    display: inline-block;}
+                    a{font-weight: 400;font-size: 18px; text-transform: uppercase; text-decoration: none;     padding-top: 20px;    letter-spacing: 1px;    display: inline-block;width: 100%;padding-bottom: 23px; }
                     &:hover{background-color: #ff5e14;}
                 }
                 .bttn-descr{ display: inline-block; width:100%; max-width: 436px;    margin-left: 19px;    padding-top: 17px;
