@@ -42,9 +42,12 @@
     .block-for-main{ max-width: 960px; margin:  0 auto;opacity: 1; padding-bottom: 57px;
         .convert-base-block{vertical-align: top; padding: 0 10px 17px 10px;
             .base-half{display: inline-block; max-width: 460px;  border: 8px solid #ff5e14; margin-left: 0px; margin-right: 6px;vertical-align: top; padding: 25px; padding-top: 21px; padding-bottom: 21px;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
+            &.second-half{
+                ul li:first-child{height: 80px;}
+            }
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
 
-                &:nth-child(2){margin-left: 3px;    margin: 0 -3px 0 -3px; padding: 33px; max-width: 460px; margin-right: 0px; border: none; background-image: url(../images/bg-fgh.png);  border-radius: 2px; padding-top: 28px; padding-bottom: 25px; opacity: 0; transform:translate3d(20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
+                &:nth-child(2){margin-left: 3px;    margin: 0 -3px 0 -3px; padding: 33px; max-width: 460px; margin-right: 0px; border: none; background-image: url(../images/bg-fgh.png);  border-radius: 2px; padding-top: 28px; padding-bottom: 25px; opacity: 0; transform:translate3d(20%,0,0); transition:transform 300ms ease, opacity 400ms ease;background-size: cover;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
                     .head-base {color: white;}
                     .head-base:after { background-color: white;}
@@ -53,7 +56,7 @@
                     ul {border-top: 1px solid white; border-bottom: 1px solid white;}
                     ul li{color: white; height: 60px;}
                     .undertext{color: white;}
-                    .undercena{color: white;}
+                    .undercena{color: white;padding-bottom: 17px;}
                     a{margin-bottom: 6px;}
                     a span{color: white;}
                     .i-am-loading{margin-left: 16px; border: 2px solid white;}
@@ -66,8 +69,10 @@
                     &:after{content: ''; position: absolute; bottom: -2px; left: 0; width: 50px; background-color: black; height: 3px;}
                 }
                 ul{ padding-left: 35px; padding-right: 35px; height: 350px; border-top: 1px solid #cacaca;border-bottom: 1px solid #cacaca;  padding-top: 26px;
-                    li{ font-family: 'GothamPro', sans-serif; font-size: 16px; font-weight: 400; height: 51px; position: relative;
-                        &:before{content: ''; position: absolute; top: 2px; left: -35px; width: 20px; height: 20px; background-image: url(../images/circle-list.png); }
+                    li{ font-family: 'GothamPro', sans-serif; font-size: 16px; font-weight: 400; height: 53px; position: relative;
+                        &:first-child{height: 62px;}
+                        &:nth-child(2){}
+                        &:before{content: ''; position: absolute; top: 0px; left: -35px; width: 20px; height: 20px; background-image: url(../images/circle-list.png); }
                         &:after{content: ''; position: absolute; top: 27px; left: -27px; width: 2px; height: 20px; background-color: #cacaca;}
                     }
                 }
@@ -79,6 +84,10 @@
                 }
                 a{display:inline-block; border: 2px solid rgb(255, 94, 20); border-radius: 4px; padding: 11px;text-decoration: none; width: 180px;text-align: center;transition: all 0.7s ease ; background-color: transparent; margin-left: 3px;
                     span{font-size: 16px;font-family: 'GothamPro', sans-serif;font-weight: 400; text-transform: uppercase; line-height: 1.2; color: black; transition: all 0.5s ease ; }
+                    &.black{padding: 11px 2px;border-color:black;
+                        span{text-transform: inherit;}
+                        i{font-weight: bold;}
+                    }
                 }
                 a:hover{background-color:#ff5e14;
                     span{color: white;}
@@ -87,7 +96,7 @@
 
             }
         }
-        .inferno{
+        .inferno{display: none;
             .block-under-base{width: 940px; padding:21px 70px 42px; text-align: center; font-size: 18px;font-family: 'GothamPro', sans-serif;font-weight: 400; border-radius: 10px; border: 3px dotted black; margin: 0 auto;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
                 span{font-size: 24px;font-weight: 700;}
