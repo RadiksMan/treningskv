@@ -8,7 +8,7 @@
         .box-crams{display: inline-block; width: 33%;margin-left: -11px;vertical-align: top;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
             .conver-text{ position: relative; display: inline-block; vertical-align: top; margin-bottom: 8px;
-                p {font-family: 'GothamPro', sans-serif; font-size: 30px; font-weight: 700; background-color: #ff5e14; color: white; padding-top: 6px; padding-bottom: 6px; padding-left: 20px; padding-right: 20px;}
+                p {font-family: 'GothamPro', sans-serif; font-size: 30px; font-weight: 700; background-color: #ff5e14; color: white; padding-top: 6px; padding-bottom: 6px; padding-left: 20px; padding-right: 20px;height: 46px;}
                 &:after{content: ''; position: absolute; right: -11px; top: 0; width: 0; height: 0; border-style: solid; border-width: 23px 0 23px 11px; border-color: transparent transparent transparent #ff5e14;}
             }
             .after-crams{ float: right; vertical-align: top; width: calc(100% - 115px); height: 23px; border-bottom: 2px dotted #747d94; margin-right: 5px; margin-left: 5px;}

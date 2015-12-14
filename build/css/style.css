@@ -134,7 +134,8 @@ body {
   background: #fff;
   color: #000;
   position: relative;
-  font-size: 16px; }
+  font-size: 16px;
+  min-width: 960px; }
 
 img {
   vertical-align: bottom;
@@ -1821,7 +1822,8 @@ input[type='submit'].styler[disabled] {
           padding-top: 6px;
           padding-bottom: 6px;
           padding-left: 20px;
-          padding-right: 20px; }
+          padding-right: 20px;
+          height: 46px; }
         .block7-wrap .crams-line .box-crams .conver-text:after {
           content: '';
           position: absolute;
@@ -2929,8 +2931,8 @@ input[type='submit'].styler[disabled] {
     min-width: 200px; }
 
   .header-logo-border {
-    top: 91.8rem;
-    height: 17px; }
+    top: 94rem;
+    height: 18px; }
 
   .header-logo-border:after {
     -webkit-border-radius: 42%;
