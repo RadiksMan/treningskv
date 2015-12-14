@@ -70,11 +70,22 @@
     .section-two .content .items .item .txt p{font-size: 14px;line-height: 16px;}
     .section-two .content .items .item:nth-child(3){margin-left: 30px;}
     .section-two .content .items{padding-left: 51px;}
-    .header-logo-border{    top: 95px;}
-    .section-five .content .table .title-tab p{font-size: 9px !important;}
+
+    .section-five .content .table .title-tab p{font-size: 29px !important;max-width: 705px;margin: 0 auto;}
+    .section-five .content .title p:last-child {font-size: 12px;}
+    .section-five .content .title p:nth-child(5), .section-five .content .title p:nth-child(6){font-size: 13px !important;}
+    .section-five .content .title p:nth-child(4){font-size: 13px !important;}
+    .section-five .content .table .items .item .txt p{font-size: 17px !important;}
+    .bottom-form .bottom-form-title h5 {font-size: 16px !important;}
     section{overflow: hidden;}
-    .bottom-form .bottom-form-title h5{font-size: 14px;}
-    .bottom-form .contact-form-item{margin: 0 -5px;}
+    .bottom-form .bottom-form-title h5{font-size: 30px !important;}
+    .bottom-form .contact-form-item{margin: 0 -1px;max-width: 200px;}
+    .bottom-form .contact-form-item .jq-selectbox__select{min-width: 200px;}
+    .header-logo-border{top: 91.8rem;height: 17px;}
+    .header-logo-border:after{border-radius: 42%;}
+    .helper-obert{height: 155px;}
+    .helper-obert .block8-wrap{top: 4px;}
+    .block9-wrap{padding-top: 225px;}
 }
 /*END section-two*/
 /*section-thre*/
@@ -142,7 +153,7 @@
                 &:before{content: ''; display: block;position: absolute; border-bottom: 4px solid #fff; border-right: 4px solid #fff; width:926px; height: 136px;    bottom: -13px;    left: 10px;}
                     &:after{content: ''; display: block;position: absolute;  border-left: 4px solid #fff; width:1px; height: 63px;     bottom: -13px;    left: 10px;}
                 .title-tab{ position: relative; text-align: center; padding-bottom: 39px;
-                    p{font-size: 24px;}
+                    p{font-size: 27px;}
                     &:before{content: ''; display: block;position: absolute; border-top: 4px solid #fff; border-left: 4px solid #fff; width:126px; height: 53px;top: 26px;    left: 10px;}
                     &:after{content: ''; display: block;position: absolute; border-top: 4px solid #fff; border-right: 4px solid #fff; width:136px; height: 53px;top: 26px;    right:0;}
                 }
