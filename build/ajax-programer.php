@@ -1,5 +1,5 @@
 <?php
-    $subject = 'Заявка с сайта Yazbek.ru';
+    $subject = 'Заявка с сайта Yazbeck.ru';
     $mess = '';
     $mess .= '<hr>';
     if(isset($_POST['info'])) {
