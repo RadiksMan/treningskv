@@ -1,5 +1,5 @@
 /*section-one*/
-    .section-one{position: relative; background-image: url('../images/spikerBG.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;
+    .section-one{position: relative; background-image: url('../images/spikerBG.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;margin-top: -19px;
         .spiker-bg{}
         .content{position: relative;     padding: 38px 0 54px 0;
             a,p,span{font-family: 'GothamPro'; font-size: 36px; font-weight: 700; color:#fff;}
@@ -86,6 +86,9 @@
     .helper-obert{height: 155px;}
     .helper-obert .block8-wrap{top: 4px;}
     .block9-wrap{padding-top: 225px;}
+    .header{
+        &:after{top: calc(100% - 2px);}
+    }
 }
 /*END section-two*/
 /*section-thre*/

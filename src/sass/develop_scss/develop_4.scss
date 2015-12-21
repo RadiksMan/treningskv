@@ -59,7 +59,8 @@
         .jq-selectbox.opened{
             .jq-selectbox__trigger-arrow{border-top: 5px solid #ff5e14;}
         }
-        .jq-selectbox__select{height: 47px;font-family: "GothamPro";box-shadow: none;text-shadow:none;color: #dddddd;border:2px solid white;background:transparent;min-width: 220px;padding: 2px 45px 0 10px;}
+        .jq-selectbox {vertical-align: top;}
+        .jq-selectbox__select{height: 47px;line-height: 35px;font-family: "GothamPro";box-shadow: none;text-shadow:none;color: #dddddd;border:2px solid white;background:transparent;min-width: 220px;padding: 2px 45px 0 10px;}
         .jq-selectbox .placeholder {width: 135px !important;color: #dddddd;font-size: 16px;}
         .jq-selectbox__trigger{border-left: none;
             &:after{position: absolute;height: 60%;width: 1px;content: '';background-color: #fff;top: 50%;transform: translateY(-50%);right: 43px;}
@@ -69,7 +70,7 @@
         .jq-selectbox li.selected{background-color:inherit;color: #2984fc;}
         .jq-selectbox li {padding: 8px 20px 8px;text-align: left;border-bottom:1px solid #c7c7c7;font-size: 16px;font-family: "GothamPro";}
     }
-    .contact-submit{padding: 10px 0px 11px;background:transparent;color: white;
+    .contact-submit{padding: 11px 0px 11px;background:transparent;color: white;
         &:hover{background-color:#FF5E14;}
     }
     .form_input label{background:transparent;color: #dddddd;

@@ -1154,25 +1154,13 @@ input[type='submit'].styler[disabled] {
 /* import develop files */
 /* header */
 .header {
-  background-color: #fff;
-  border-bottom: 4px solid #000;
   position: relative;
-  min-height: 104px; }
-  .header:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    bottom: 0;
-    height: 16px;
-    width: 72px;
-    background: url("../images/header-logo-new-new.png") center center no-repeat;
-    bottom: -16px;
-    z-index: 5; }
+  min-height: 121px;
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: 5;
+  /*&:after{content: '';position: absolute;left: 50%;transform: translateX(-50%);bottom: 0;height: 16px;width: 72px;background: url('../images/header-logo-new-new.png') center center no-repeat;top: 100%;z-index: 5;}*/ }
 
 .header-left {
   float: left;
@@ -2418,8 +2406,11 @@ input[type='submit'].styler[disabled] {
       border: 2px solid red; }
     .bottom-form .contact-form-item .jq-selectbox.opened .jq-selectbox__trigger-arrow {
       border-top: 5px solid #ff5e14; }
+    .bottom-form .contact-form-item .jq-selectbox {
+      vertical-align: top; }
     .bottom-form .contact-form-item .jq-selectbox__select {
       height: 47px;
+      line-height: 35px;
       font-family: "GothamPro";
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
@@ -2465,7 +2456,7 @@ input[type='submit'].styler[disabled] {
       font-size: 16px;
       font-family: "GothamPro"; }
   .bottom-form .contact-submit {
-    padding: 10px 0px 11px;
+    padding: 11px 0px 11px;
     background: transparent;
     color: white; }
     .bottom-form .contact-submit:hover {
@@ -2569,7 +2560,8 @@ input[type='submit'].styler[disabled] {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+  margin-top: -19px; }
   .section-one .content {
     position: relative;
     padding: 38px 0 54px 0; }
@@ -2962,7 +2954,12 @@ input[type='submit'].styler[disabled] {
     top: 4px; }
 
   .block9-wrap {
-    padding-top: 225px; } }
+    padding-top: 225px; }
+
+  .header:after {
+    top: -webkit-calc(100% - 2px);
+    top: -moz-calc(100% - 2px);
+    top: calc(100% - 2px); } }
 /*END section-two*/
 /*section-thre*/
 .section-three {

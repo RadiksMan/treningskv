@@ -1,7 +1,7 @@
 /* header */
 
-.header{background-color: #fff;border-bottom: 4px solid #000;position: relative;min-height: 104px;
-    &:after{content: '';position: absolute;left: 50%;transform: translateX(-50%);bottom: 0;height: 16px;width: 72px;background: url('../images/header-logo-new-new.png') center center no-repeat;bottom: -16px;z-index: 5;}
+.header{position: relative;min-height: 121px;background-image: url(../images/header-bg.png);background-repeat: no-repeat;background-position: center top;z-index: 5;
+    /*&:after{content: '';position: absolute;left: 50%;transform: translateX(-50%);bottom: 0;height: 16px;width: 72px;background: url('../images/header-logo-new-new.png') center center no-repeat;top: 100%;z-index: 5;}*/
 }
 .header-left{float: left;font-size: 16px;line-height: 20px;position: relative;top: 31px;}
 
