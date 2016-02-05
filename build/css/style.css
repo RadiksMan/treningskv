@@ -2567,9 +2567,13 @@ input[type='submit'].styler[disabled] {
     padding: 38px 0 54px 0; }
     .section-one .content a, .section-one .content p, .section-one .content span {
       font-family: 'GothamPro';
-      font-size: 36px;
-      font-weight: 700;
+      font-size: 24px;
+      font-weight: 600;
       color: #fff; }
+    .section-one .content b {
+      font-size: 34px;
+      font-weight: 600;
+      display: block; }
     .section-one .content .spiker {
       position: absolute;
       bottom: 0;
@@ -2594,7 +2598,7 @@ input[type='submit'].styler[disabled] {
         transform: rotateY(0); }
     .section-one .content .title {
       width: 100%;
-      max-width: 550px;
+      max-width: 643px;
       padding-bottom: 25px;
       -webkit-transform: translateX(-100%);
       -moz-transform: translateX(-100%);
@@ -2621,7 +2625,7 @@ input[type='submit'].styler[disabled] {
         color: #ff5e14;
         letter-spacing: 0.1px; }
       .section-one .content .title span {
-        line-height: 44px; }
+        line-height: 38px; }
     .section-one .content .date-event {
       padding: 0 0 22px 15px;
       position: relative;
@@ -2715,7 +2719,7 @@ input[type='submit'].styler[disabled] {
         width: 100%;
         max-width: 436px;
         margin-left: 19px;
-        padding-top: 17px; }
+        /*padding-top: 17px;*/ }
         .section-one .content .bttn-wrapp .bttn-descr p {
           font-weight: 400;
           font-size: 12px;
@@ -3208,141 +3212,58 @@ input[type='submit'].styler[disabled] {
       .section-five .content .title p:last-child {
         font-size: 20px;
         padding-top: 22px; }
-    .section-five .content .table {
-      position: relative;
-      -webkit-transform-origin: 50% top;
-      -moz-transform-origin: 50% top;
-      -ms-transform-origin: 50% top;
-      -o-transform-origin: 50% top;
-      transform-origin: 50% top;
-      -webkit-transform: scaleY(0);
-      -moz-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-      -o-transform: scaleY(0);
-      transform: scaleY(0);
-      opacity: 0;
-      -webkit-transition: all 500ms;
-      -moz-transition: all 500ms;
-      -o-transition: all 500ms;
-      transition: all 500ms; }
-      .section-five .content .table.animated {
-        -webkit-transform: scaleY(1);
-        -moz-transform: scaleY(1);
-        -ms-transform: scaleY(1);
-        -o-transform: scaleY(1);
-        transform: scaleY(1);
-        opacity: 1; }
-      .section-five .content .table:before {
-        content: '';
-        display: block;
-        position: absolute;
-        border-bottom: 4px solid #fff;
-        border-right: 4px solid #fff;
-        width: 926px;
-        height: 136px;
-        bottom: -13px;
-        left: 10px; }
-      .section-five .content .table:after {
-        content: '';
-        display: block;
-        position: absolute;
-        border-left: 4px solid #fff;
-        width: 1px;
-        height: 63px;
-        bottom: -13px;
-        left: 10px; }
-      .section-five .content .table .title-tab {
+    .section-five .content .sect-f-item {
+      float: left;
+      width: 33.33%; }
+    .section-five .content .sect-f-item-wrap {
+      max-width: 300px;
+      width: 100%;
+      overflow: hidden; }
+    .section-five .content .sect-f-item-mark {
+      position: relative; }
+      .section-five .content .sect-f-item-mark p {
+        background-color: #ff5e14;
+        color: white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 46px;
+        display: inline-block;
+        font-size: 30px;
         position: relative;
-        text-align: center;
-        padding-bottom: 39px; }
-        .section-five .content .table .title-tab p {
-          font-size: 27px; }
-        .section-five .content .table .title-tab:before {
+        z-index: 3; }
+        .section-five .content .sect-f-item-mark p:after {
           content: '';
-          display: block;
           position: absolute;
-          border-top: 4px solid #fff;
-          border-left: 4px solid #fff;
-          width: 126px;
-          height: 53px;
-          top: 26px;
-          left: 10px; }
-        .section-five .content .table .title-tab:after {
-          content: '';
-          display: block;
-          position: absolute;
-          border-top: 4px solid #fff;
-          border-right: 4px solid #fff;
-          width: 136px;
-          height: 53px;
-          top: 26px;
-          right: 0; }
-      .section-five .content .table .items {
-        position: relative; }
-        .section-five .content .table .items:before {
-          content: '';
-          display: block;
-          position: absolute;
-          border-left: 4px solid #fff;
-          width: 1px;
-          height: 106px;
-          right: 0;
-          top: 46px; }
-        .section-five .content .table .items .item {
-          float: left;
-          width: 33%; }
-          .section-five .content .table .items .item .round {
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;
-            border: 5px solid #ff5e14;
-            position: relative;
-            width: 25px;
-            height: 25px;
-            margin-bottom: 16px; }
-            .section-five .content .table .items .item .round:before {
-              content: '';
-              display: block;
-              position: absolute;
-              width: 7px;
-              height: 7px;
-              -webkit-border-radius: 50%;
-              -moz-border-radius: 50%;
-              border-radius: 50%;
-              background-color: #ff5e14;
-              top: 4px;
-              left: 4px; }
-            .section-five .content .table .items .item .round:after {
-              content: '';
-              display: block;
-              position: absolute;
-              background-image: url("../images/doted.png");
-              background-repeat: no-repeat;
-              background-position: center;
-              width: 268px;
-              height: 3px;
-              top: 6px;
-              left: 25px; }
-          .section-five .content .table .items .item .txt {
-            height: 111px; }
-            .section-five .content .table .items .item .txt p {
-              font-weight: 400;
-              font-size: 16px;
-              color: #c1c7d1; }
-          .section-five .content .table .items .item:nth-child(3n-1) {
-            margin-left: 9px; }
-          .section-five .content .table .items .item:nth-child(3n) {
-            margin-left: 10px;
-            width: 30%; }
-          .section-five .content .table .items .item:nth-child(1):after {
-            content: '';
-            display: block;
-            position: absolute;
-            border-left: 4px solid #fff;
-            width: 1px;
-            height: 40px;
-            left: 10px;
-            top: 103px; }
+          right: -11px;
+          top: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 23px 0 23px 11px;
+          border-color: transparent transparent transparent #ff5e14; }
+      .section-five .content .sect-f-item-mark:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        width: 102%;
+        background: url("../images/doted_some_shit.png") left top repeat-x;
+        height: 3px;
+        top: 21px;
+        right: 0; }
+    .section-five .content .sect-f-item-title {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding-top: 30px;
+      padding-bottom: 35px;
+      font-size: 20px; }
+    .section-five .content .sect-f-item-text {
+      border-left: 1px solid #ff5e14;
+      padding-left: 20px;
+      color: white;
+      font-size: 18px; }
 
 /*END section-five*/
 /* /import develop files */
