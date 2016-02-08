@@ -131,7 +131,7 @@
 /* ten section */
 
 .section-ten{padding: 36px 0 61px 0;}
-.ten-title{width: 485px;margin:0 auto 34px auto;font-size: 36px;font-weight: 700;opacity: 0;transform:translate(0, 50%);transition:opacity 400ms ease,transform 200ms ease;
+.ten-title{width: 850px;margin:0 auto 34px auto;font-size: 36px;font-weight: 700;opacity: 0;transform:translate(0, 50%);transition:opacity 400ms ease,transform 200ms ease;text-align: center;
     &.animated{opacity: 1;transform:translate(0, 0);}
 }
 .ten-content{text-align: center;}
