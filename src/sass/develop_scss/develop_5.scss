@@ -2,14 +2,14 @@
     .section-one{position: relative; background-image: url('../images/spikerBG.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;margin-top: -19px;
         .spiker-bg{}
         .content{position: relative;     padding: 38px 0 54px 0;
-            a,p,span{font-family: 'GothamPro'; font-size: 24px; font-weight: 600; color:#fff;}
+            a,p,span,h1{font-family: 'GothamPro'; font-size: 24px; font-weight: 600; color:#fff;}
             b{font-size: 34px;font-weight: 600;display: block;}
             .spiker{position: absolute;bottom: 0; right:-39px; z-index: -1; transform: rotateY(90deg); opacity:0; transition: all 500ms; transition-delay:500ms;
                 &.animated{opacity: 1; transform: rotateY(0);}
             }
             .title{    width: 100%;    max-width: 643px;     padding-bottom: 25px;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:500ms;
                 &.animated{opacity: 1; transform: translateX(0);}
-                p{color: #ff5e14;     letter-spacing: 0.1px;}
+                p,h1{color: #ff5e14;     letter-spacing: 0.1px;}
                 span{line-height: 38px;}
             }
             .date-event{padding: 0 0 22px 15px; position: relative;transform: translateX(-100%); opacity:0; transition: all 500ms; transition-delay:700ms;
