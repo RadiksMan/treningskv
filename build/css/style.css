@@ -3367,4 +3367,7 @@ input[type='submit'].styler[disabled] {
 /*END section-five*/
 /* /import develop files */
 /* import develop adaptation */
+@media screen and (max-width: 960px) {
+  .section-fourteen {
+    padding-bottom: 30px; } }
 /* /import develop adaptation */
