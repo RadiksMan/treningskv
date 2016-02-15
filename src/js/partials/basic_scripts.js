@@ -98,11 +98,11 @@ $(document).ready(function() {
 $(window).load(function(){
 
   oneHeightItems();
-  $('.footer_placeholder').height($('.footer').outerHeight());
+  //$('.footer_placeholder').height($('.footer').outerHeight());
 
 });
 
 $(window).resize(function() {
 
-    $('.footer_placeholder').height($('.footer').outerHeight());
+    //$('.footer_placeholder').height($('.footer').outerHeight());
 });

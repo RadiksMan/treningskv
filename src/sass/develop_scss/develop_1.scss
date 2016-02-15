@@ -39,6 +39,11 @@
 .footer-right{float: right;transform:translate(50%, 0);opacity: 0;transition:opacity 400ms ease, transform 200ms ease;
     &.animated{transform:translate(0, 0);opacity: 1;}
 }
+.policy{text-align: center;margin-top: 0px;padding-bottom: 20px;margin:0 auto;
+    a{text-decoration: none;color: black;
+        &:hover{text-decoration: underline;}
+    }
+}
 
 /* /footer */
 
